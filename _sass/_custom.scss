@@ -1,0 +1,5 @@
+/* Short notice */
+
+.notice--short {
+  @include notice($warning-color);
+}
