@@ -7,7 +7,8 @@ header:
 title: Weird.
 ---
 
-## This is the home of some weird development stuff.
+{:.page__lead.shadowy}
+This is home for some weird development stuff.
  
  <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 

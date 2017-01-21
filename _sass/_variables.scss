@@ -42,6 +42,7 @@ $type-size-6                : 0.75em !default;   // ~12px
 $type-size-7                : 0.6875em !default; // ~11px
 $type-size-8                : 0.625em !default;  // ~10px
 
+$caveat                      :Caveat, cursive;
 
 /*
    Colors
@@ -87,7 +88,7 @@ $vimeo-color                : #1ab7ea !default;
 $vine-color                 : #00bf8f !default;
 $youtube-color              : #bb0000 !default;
 $xing-color                 : #006567 !default;
-
+$handy-color                : #075B84 !default;
 
 /* links */
 $link-color                 : $info-color !default;

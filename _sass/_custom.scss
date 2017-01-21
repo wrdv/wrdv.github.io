@@ -1,6 +1,5 @@
 /* Short notice */
-
-.notice--short {
+ .notice--short {
   @include notice($warning-color);
 }
 .weird-intro.page__hero--overlay{
@@ -9,11 +8,32 @@
   .page__lead{
     max-width: none;
     color: #101010;
+     text-shadow: none;
   }
    background-size: auto;
    background-repeat: repeat;
+  padding-left: 2em;
+  padding-right: 1em;
+  float: left;
+  margin-left: 12%;
 }
 
+div.weird-intro{
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
 div.weird-intro .smaller {
   font-size: 50%;
+}
+.handy{
+  font-family: $caveat;
+  color: $handy-color!important;
+  font-size: 38px;
+  &.font-effect-crackle {
+    color: $handy-color!important;
+  }
+}
+.shadowy{
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+  color: #101010;
+  font-size: 1.5em!important;
 }

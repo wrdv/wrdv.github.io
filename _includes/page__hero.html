@@ -21,12 +21,11 @@
 {% elsif page.header.overlay_filter %}
   {% capture overlay_filter %}rgba(0, 0, 0, {{ page.header.overlay_filter }}){% endcapture %}
 {% endif %}
-
-<div class="weird-intro page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
+<div class="weird-intro wrapper page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
   style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}), {% endif %}url('{{ overlay_img_path }}');{% endif %}"
 >
   {% if page.header.overlay_color or page.header.overlay_image %}
-    <div class="wrapper">
+    <!--<div class="wrapper ">-->
       <h1 class="page__title" itemprop="headline">
         {% if paginator %}
           {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
@@ -34,13 +33,11 @@
           {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
         {% endif %}
       </h1>
-      <p class="page__lead">1. <i><sub>adjective.</sub></i> suggesting something supernatural; unearthly. <br/><span class="smaller"><i><a href="https://en.oxforddictionaries.com/definition/weird">Oxford Dictionary</a></i></span></p>
+      <p class="page__lead">1. <i><sub>adjective.</sub></i> Suggesting something supernatural; unearthly. <br/><span class="smaller"><i><a href="https://en.oxforddictionaries.com/definition/weird">Oxford Dictionary</a></i></span></p>
       <p class="page__lead">2. <i><sub>adjective.</sub></i> Excellent; wonderful; cool. <br/><span class="smaller"><i>The Dictionary of American Slang, Fourth Edition, <a href="http://www.dictionary.com/browse/weird">Dictionary.com</a></i></span></p>
-      <p class="page__lead">3. <i><sub>verb.</sub></i> induce a sense of disbelief or alienation in someone. <br/><a  href="https://en.oxforddictionaries.com/definition/weird"><span class="smaller"><i>Oxford Dictionary</i></span></a></p>
-
-      oh well it also means...
-      2. `verb.` induce a sense of disbelief or alienation in someone.
-      but lets focus on the positive aspects :)
+      <span class="handy font-effect-crackle">oh well it also means...</span>
+      <p class="page__lead">3. <i><sub>verb.</sub></i> Induce a sense of disbelief or alienation in someone. <br/><a  href="https://en.oxforddictionaries.com/definition/weird"><span class="smaller"><i>Oxford Dictionary</i></span></a></p>
+      <span class="handy font-effect-crackle">...but lets focus on the positive aspects :)</span>
 
       {% if page.excerpt %}
         <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
@@ -51,7 +48,7 @@
       {% if page.header.cta_url %}
         <p><a href="{{ cta_path }}" class="btn btn--light-outline btn--large">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
       {% endif %}
-   </div>
+    <!--</div>-->
   {% else %}
     <img src="{{ img_path }}" alt="{{ page.title }}" class="page__hero-image">
   {% endif %}
