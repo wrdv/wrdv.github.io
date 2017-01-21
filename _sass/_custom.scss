@@ -3,3 +3,17 @@
 .notice--short {
   @include notice($warning-color);
 }
+.weird-intro.page__hero--overlay{
+   a,
+  .page__title,
+  .page__lead{
+    max-width: none;
+    color: #101010;
+  }
+   background-size: auto;
+   background-repeat: repeat;
+}
+
+div.weird-intro .smaller {
+  font-size: 50%;
+}
