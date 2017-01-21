@@ -4,10 +4,10 @@ permalink: /
 header:
   overlay_color: "#ffffff"
   overlay_image: /assets/images/mm-home-page-creampaper.png
-title: Weird.
+word: Weird.
 ---
 
-{:.page__lead.shadowy}
+{:.handy.bigger}
 This is home for some weird development stuff.
  
  <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>

@@ -30,7 +30,7 @@
         {% if paginator %}
           {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
         {% else %}
-          {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
+          {{ page.word | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
         {% endif %}
       </h1>
       <p class="page__lead">1. <i><sub>adjective.</sub></i> Suggesting something supernatural; unearthly. <br/><span class="smaller"><i><a href="https://en.oxforddictionaries.com/definition/weird">Oxford Dictionary</a></i></span></p>
@@ -50,7 +50,7 @@
       {% endif %}
     <!--</div>-->
   {% else %}
-    <img src="{{ img_path }}" alt="{{ page.title }}" class="page__hero-image">
+    <img src="{{ img_path }}" alt="{{ page.word }}" class="page__hero-image">
   {% endif %}
   {% if page.header.caption %}
     <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
