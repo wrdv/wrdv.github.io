@@ -27,18 +27,17 @@ div.weird-intro .smaller {
 .handy{
   font-family: $caveat;
   color: $handy-color!important;
-  font-size: 38px;
+  font-size: 1.7em;
   &.font-effect-crackle {
     color: $handy-color!important;
   }
   &.font-effect-putting-green {
     color: $handy-color!important;
     font-weight: bold;
-    font-size: 44px;
   }
   &.bigger{
     font-weight: bold;
-    font-size: 44px;
+    font-size: 2.5em;
   }
 }
 .page__content p.shadowy,.archive p.shadowy{
