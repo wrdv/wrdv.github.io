@@ -2,10 +2,10 @@
 main:
   - title: "TestMe"
     url: /testme/quick-start/
+  - title: "Blog"
+    url: /blog-archive/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"

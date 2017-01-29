@@ -5,12 +5,12 @@ excerpt: "Overview of TestMe IntelliJ IDEA Plugin main features"
 modified: 2017-01-29T22:00:00+02:00
 ---
 #### Feature list
-- Generate Mocks for tested class non-primitive fields
+- Generate Mocks for tested class's non-primitive fields
 - Support Mockito as a Mock framework
+- Support JUnit4 and JUnit5
 - Generate Test methods for each accessible non-private method, excluding setters/getters
-- Generate dummy tested method input parameters
+- Generate dummy input parameters for tested method
 - Generate test result assertion expression
-- Support Junit4 and Junit5
 
 
 #### TestMe motto and current shortcomings
@@ -21,4 +21,8 @@ Furthermore, the generated test code adheres to the limitations of the Mocking f
 On some cases this is a known limitation taken into account, where the added value of having an auto generated base code as a starting point - overcomes the effort of handling the compilation error.
 On other cases, the project simply hasn't gained the maturity level to cover those use cases yet.
 If you think you encountered a bug, or a use case where things can be handled better - please report it. Reported issues will typically be prioritized higher than planned features on the project road map.
-Issue reporting and tracking is currently available at [GitHub Project Issues](https://github.com/wrdv/testme-idea/issues).      
+Same goes to feature requests, I've got no idea what you want if you wont tell me about it :smile:.
+
+Issue tracking is managed at [GitHub Project Issues](https://github.com/wrdv/testme-idea/issues).
+
+[Submit a new issue](https://github.com/wrdv/testme-idea/issues/new){: .btn .btn--info}
