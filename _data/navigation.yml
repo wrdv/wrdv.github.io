@@ -11,16 +11,16 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
-# documentation links
+# TestMe links
 testme:
-  - title: TestMe
+  - title: TestMe Guide
     children:
-      - title: "TestMe Quick-Start"
+      - title: "Quick-Start"
         url: /testme/quick-start/
-#      - title: "Structure"
-#        url: /docs/structure/
-#      - title: "Installation"
-#        url: /docs/installation/
+      - title: "Features"
+        url: /testme/features/
+      - title: "License"
+        url: /testme/license/
 #      - title: "Upgrading"
 #        url: /docs/upgrading/
 #  - title: Customization
