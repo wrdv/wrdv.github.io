@@ -4,8 +4,8 @@ main:
     url: /testme/quick-start/
   - title: "Blog"
     url: /blog-archive/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "About"
+    url: /about
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"

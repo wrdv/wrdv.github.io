@@ -8,7 +8,7 @@ tags:
   - Intellij IDEA
 ---
 
-First release of [TestMe IJ IDEA Plugin]({{ "/testme/quick-start/" | absolute_url }}) has just been uploaded to Jetbrains plugins repository and is available for [installation]({{ "/testme/quick-start/" | absolute_url }}) from withing IntelliJ IDEA.  
+First release of [TestMe IJ IDEA Plugin]({{ "/testme/quick-start/" | absolute_url }}) has just been uploaded to JetBrains plugins repository and is available for [installation]({{ "/testme/quick-start/" | absolute_url }}) from withing IntelliJ IDEA.
 
 ## When to release?
 

@@ -40,10 +40,19 @@ div.weird-intro .smaller {
     font-size: 2.5em;
   }
 }
-.page__content p.shadowy,.archive p.shadowy{
+.shadowy{
   text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
   //color: #101010;
   color: $handy-color;
+}
+.bigger-intro{
   font-size: 1.5em!important;
   margin: 0 0 0.3em;
+}
+.comic{
+    font-family: "Comic Sans MS", cursive, sans-serif !important;
+}
+.testme-link{
+  color: #05a948 !important;
+  text-decoration: underline !important;
 }
