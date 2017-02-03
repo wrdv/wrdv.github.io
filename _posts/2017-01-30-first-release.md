@@ -41,4 +41,4 @@ Issue tracking is managed at [GitHub Project Issues](https://github.com/wrdv/tes
 
 Thanks for listening.
 
-P.S. I would like give a special credit for [Michael Rose](https://github.com/mmistakes) and his feature rich Jekyll Theme [ Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) which this site is built upon.
+P.S. I would like to give a special credit for [Michael Rose](https://github.com/mmistakes) and his feature rich Jekyll Theme [ Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) which this site is built upon.

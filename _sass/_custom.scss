@@ -1,5 +1,5 @@
 /* Short notice */
- .notice--short {
+.notice--short {
   @include notice($warning-color);
 }
 .weird-intro.page__hero--overlay{
