@@ -35,9 +35,7 @@ On other cases, the project simply hasn't gained the maturity level to cover tho
 If you think you encountered a bug, or a use case where things can be handled better - please report it. Reported issues will typically be prioritized higher than planned features on the projects roadmap.
 Same goes to submitted feature requests. I've got no idea what you want if you wont tell me about it :wink:.
 
-Issue tracking is managed at [GitHub Project Issues](https://github.com/wrdv/testme-idea/issues).
-
-[Submit a new issue](https://github.com/wrdv/testme-idea/issues/new){: .btn .btn--info}
+[Report a new issue on the project forum]({{ "/forum#!/testme/" | absolute_url }})
 
 Thanks for listening.
 

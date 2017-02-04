@@ -3,11 +3,11 @@ main:
   - title: "TestMe"
     url: /testme/quick-start/
   - title: "Blog"
-    url: /blog-archive/
+    url: /blog/
+  - title: "Forum"
+    url: /forum
   - title: "About"
     url: /about
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
 
@@ -21,8 +21,6 @@ testme:
         url: /testme/features/
       - title: "License"
         url: /testme/license/
-#      - title: "Upgrading"
-#        url: /docs/upgrading/
 #  - title: Customization
 #    children:
 #      - title: "Configuration"

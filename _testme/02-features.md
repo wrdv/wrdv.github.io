@@ -17,6 +17,4 @@ modified: 2017-01-29T22:00:00+02:00
 
 **TestMe IJ Plugin** aims at generating as much Unit Test boilerplate as possible. The project still lacks some maturity level. You can further read about those dilemmas in [this blog post]({{ "/testme/first-release/" | absolute_url }})  
 
-Issue tracking is managed at [GitHub Project Issues](https://github.com/wrdv/testme-idea/issues).
-
-[Submit a new feature request](https://github.com/wrdv/testme-idea/issues/new){: .btn .btn--info}
+[Sumbit a new Future Request on the project forum]({{ "/forum#!/testme/" | absolute_url }})
