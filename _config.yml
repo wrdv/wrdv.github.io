@@ -250,6 +250,7 @@ defaults:
       comments: true
       share: true
       related: true
+      permalink: blog/:categories/:title
   # _pages
   - scope:
       path: ""
