@@ -8,7 +8,7 @@ tags:
   - Intellij IDEA
 ---
 
-First release of [TestMe IJ IDEA Plugin]({{ "/testme/quick-start/" | absolute_url }}) has just been uploaded to JetBrains plugins repository and is available for [installation]({{ "/testme/quick-start/" | absolute_url }}) from withing IntelliJ IDEA.
+First release of [TestMe IJ IDEA Plugin]({{ "/testme/ " | absolute_url }}) has just been uploaded to JetBrains plugins repository and is available for [installation]({{ "/testme/ " | absolute_url }}) from withing IntelliJ IDEA.
 
 ## When to release?
 
@@ -20,7 +20,7 @@ When you get the first complaints and usage inquiries on what you thought was pr
 ## MVP feature list dilemma
 
 So charged with an eager release motivation, you've bean advised to first release an MVP (Minimum Viable Product). What does that mean? What features should be included to qualify for a Minimum Viable Product?
-In the [TestMe Plugin]({{ "/testme/quick-start/" | absolute_url }}) use case, there's a minimal UI that invokes test code generation, that functionality has different outcomes depending on the tested class structure.
+In the [TestMe Plugin]({{ "/testme/ " | absolute_url }}) use case, there's a minimal UI that invokes test code generation, that functionality has different outcomes depending on the tested class structure.
 What is the minimal set of use cases that should be supported for version 1.0.0? What is considered acceptable and useful and what would be regarded as a malfunctioning piece of junk that completely wastes your time? 
 So you come up with a check list of features that should go into the first release and keep out features what can be pushed further down the line in your projects roadmap.
 When you bump into some technical difficulties while implementing those features, your struggling hard with the temptation to remove that piece of functionality from the MVP feature list to your projects TODO backlog.

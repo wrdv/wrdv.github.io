@@ -1,17 +1,37 @@
 ---
-layout: splash
+layout: default
 author_profile: false
+header:
+  overlay_color: "#5e616c"
 ---
-<div class="comic shadowy" style="float: left;">
-  <p class="bigger-intro">Home for some weird development stuff.</p>
-  <p >Most notably, <a class="testme-link" href="/testme/quick-start/">TestMe IntelliJ IDEA plugin.</a></p>
+<!--header:
+  overlay_color: "#5e616c"-->
+<!--excerpt: '{::nomarkdown}<div class="comic shadowy" style="float: left;"><p class="bigger-intro">Home for some weird development stuff.</p> <p >Most notably, <a class="testme-link" href="/testme/ ">TestMe IntelliJ IDEA plugin.</a></p> </div>{:/nomarkdown}'-->
+
+<div class="weird-intro page__hero--overlay" style="background-color: #5e616c;">
+  <div class="wrapper">
+    <img class="wd-logo-medium" src="/assets/images/wd-logo-medium.png" alt="WeirdDev">
+    <div class="comic shadowy" style="float: left;">
+      <p class="bigger-intro">Home for some weird development stuff.</p>
+      <p >Most notably, <a class="testme-link" href="/testme/">TestMe IntelliJ IDEA plugin.</a></p>
+    </div>
+  </div>
 </div>
-<div style="float: left;">
-  <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-
-  {% for post in paginator.posts %}
-  {% include archive-single.html %}
-  {% endfor %}
-
-  {% include paginator.html %}
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+    {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
+    <!--todo reuse this from splah instead of duplicating-->
+    <section class="page__content" itemprop="text">
+      <div style="float: left;">
+        <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+        {% for post in paginator.posts %}
+        {% include archive-single.html %}
+        {% endfor %}
+        {% include paginator.html %}
+      </div>
+    </section>
+  </article>
 </div>

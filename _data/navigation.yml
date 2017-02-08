@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "TestMe"
-    url: /testme/quick-start/
+    url: /testme/
   - title: "Blog"
     url: /blog/
   - title: "Forum"
@@ -16,7 +16,7 @@ testme:
   - title: TestMe Guide
     children:
       - title: "Quick-Start"
-        url: /testme/quick-start/
+        url: /testme/
       - title: "Features"
         url: /testme/features/
       - title: "License"

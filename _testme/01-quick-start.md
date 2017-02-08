@@ -1,6 +1,6 @@
 ---
 title: "Quick-Start"
-permalink: /testme/quick-start/
+permalink: /testme/
 excerpt: "Quick introduction on how to use and install TestMe IntelliJ IDEA Plugin"
 modified: 2017-01-29T21:00:00+02:00
 ---
