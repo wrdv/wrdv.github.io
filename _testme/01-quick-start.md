@@ -30,11 +30,7 @@ Navigate from IDEA menu: `Code` -> `TestMe...` (`Ctrl`+`Shift`+`Q`) -> select Un
 As any IJ IDEA plugin: 
 
 1. From IDEA menu: `Preferences` (`Ctrl`+`Shift`+`S`) -> `Plugins` -> `Browse repositories...` -> Search: `TestMe` -> `Install Plugin`
-{% comment %} 
-- Manually:
-  - Download the [latest release][latest-release] and install it manually using `Preferences` -> `Plugins` -> `Install plugin from disk...`
-{% endcomment %}
-2. Restart IDE.
+2. Restart IDEA.
 
 ### Version Compatibility
 
