@@ -62,9 +62,18 @@ div.comic.shadowy{
 .shadowy{
   text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
   //color: #101010;
+}
+.deep-blue{
   color: $handy-color;
 }
+.turquoise-glow{
+  color: #06DEEC;
+}
 .bigger-intro{
+  font-size: 2.5em!important;
+  margin: 0 0 0.3em;
+}
+.smaller-intro{
   font-size: 1.5em!important;
   margin: 0 0 0.3em;
 }
@@ -72,6 +81,24 @@ div.comic.shadowy{
     font-family: "Comic Sans MS", cursive, sans-serif !important;
 }
 .testme-link{
-  color: #05a948 !important;
+  color: #24EA75 !important;
   text-decoration: underline !important;
+}
+
+.wd-code-background{
+  background-color:#2b2b2b;
+  font-family: 'Courier New';
+  font-size:2.3vw;
+  color:#629755;
+}
+.code-comment{
+  font-style:italic;
+}
+.code-see-ref{
+  color:#F2F2F2;
+  font-style:italic;
+}
+.code-see{
+  font-weight:bold;
+  font-style:italic;
 }
