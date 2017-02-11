@@ -10,7 +10,7 @@ locale                   : "en"
 title                    : "WeirdDev"
 title_separator          : "-"
 name                     : "WeirdDev"
-description              : "WeirdDev main site. Home of some weird development stuff such as TestMe IntelliJ Plugin"
+description              : "Home of some weird development stuff. Most notably, the TestMe IntelliJ Plugin"
 url                      : "https://wrdv.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "wrdv/wrdv.github.io"
@@ -19,11 +19,13 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 words_per_minute         : 160
 comments:
   provider               : "muut"
-#  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+#  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "muut", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  muut:
+    community_name: weirddev
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :

@@ -2,7 +2,7 @@
   {% capture comments_label %}{{ site.data.ui-text[site.locale].comments_label | default: "Comments" }}{% endcapture %}
   {% case site.comments.provider %}
   {% when "muut" %}
-    <a class="muut" href="https://muut.com/i/weirddev/comments" type="dynamic">Add Comment on WeirdDev</a><script src="//cdn.muut.com/1/moot.min.js"></script>
+    <a class="muut" href="https://muut.com/i/{{ site.comments.muut.community_name}}/comments" type="dynamic">Comments</a><script src="//cdn.muut.com/1/moot.min.js"></script>
   {% when "disqus" %}
     <h4 class="page__comments-title">{{ comments_label }}</h4>
     <section id="disqus_thread"></section>
