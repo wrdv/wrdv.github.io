@@ -34,7 +34,4 @@ As any IJ IDEA plugin:
 
 ### Version Compatibility
 
-TestMe plugin is compatible with IntelliJ IDEA versions 14.x and above.
-
-If you're not sure wheather you're installed IDEA version is compatible - simply try to install the plugin following the instructions above.
-If you're version is not supported - the plugin is not expected to show up on the plugin repositories search page.
+TestMe plugin is compatible with IntelliJ IDEA versions 14.x, 15.x, 2016.x. The plugin was not tested on other versions.
