@@ -16,7 +16,7 @@
           {% endif %}
 
           <a href="{{ domain }}{{ nav.url }}"><span class="nav__sub-title">{{ nav.title }}</span></a>
-        {% else %}
+        {% elsif nav.title %}
           <span class="nav__sub-title">{{ nav.title }}</span>
         {% endif %}
 

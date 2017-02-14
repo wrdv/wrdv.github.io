@@ -264,6 +264,7 @@ defaults:
       path: ""
       type: testme
     values:
+      classes: ['wd','tm-guide']
       layout: single
       read_time: false
       author_profile: false
@@ -271,3 +272,5 @@ defaults:
       comments: false
       sidebar:
         nav: "testme"
+        top_image: /assets/images/tm-logo-large.png
+        top_image_alt: "TestMe"

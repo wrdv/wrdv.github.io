@@ -13,7 +13,7 @@ main:
 
 # TestMe links
 testme:
-  - title: TestMe Guide
+  -
     children:
       - title: "Quick-Start"
         url: /testme/

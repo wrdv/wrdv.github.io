@@ -2,6 +2,14 @@
   <div class="sidebar sticky">
   {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
   {% if page.sidebar %}
+    {% if page.sidebar.top_image %}
+    <img class="sidebar-top-img" style="opacity:initial;" src={% if page.sidebar.top_image contains "://" %}
+      "{{ page.sidebar.top_image }}"
+    {% else %}
+      "{{ page.sidebar.top_image | absolute_url }}"
+    {% endif %}
+    alt="{% if page.sidebar.top_image_alt %}{{ page.sidebar.top_image_alt }}{% endif %}">
+    {% endif %}
     {% for s in page.sidebar %}
       {% if s.image %}
         <img src=
