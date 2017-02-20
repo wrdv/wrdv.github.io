@@ -2,7 +2,7 @@
 title: "Features"
 permalink: /testme/features/
 excerpt: "Overview of TestMe IntelliJ IDEA Plugin main features"
-modified: 2017-01-29T22:00:00+02:00
+modified: 2017-02-20T22:00:00+02:00
 ---
 ### Feature list
 - Generate Mocks for tested class's non-primitive fields
