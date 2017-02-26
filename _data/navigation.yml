@@ -19,19 +19,7 @@ testme:
         url: /testme/
       - title: "Features"
         url: /testme/features/
+      - title: "Changelog"
+        url: /testme/changelog/
       - title: "License"
         url: /testme/license/
-#  - title: Customization
-#    children:
-#      - title: "Configuration"
-#        url: /docs/configuration/
-#      - title: "Overriding Theme Defaults"
-#        url: /docs/overriding-theme-defaults/
-#      - title: "Navigation"
-#        url: /docs/navigation/
-#      - title: "UI Text"
-#        url: /docs/ui-text/
-#      - title: "Authors"
-#        url: /docs/authors/
-#      - title: "Layouts"
-#        url: /docs/layouts/
