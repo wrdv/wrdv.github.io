@@ -1,6 +1,6 @@
 ---
 title: "Features"
-permalink: /testme/changelog/
+permalink: /testme/release-notes/
 excerpt: "Changelog of TestMe IntelliJ IDEA Plugin released versions"
 modified: 2017-02-26T16:00:00+02:00
 ---

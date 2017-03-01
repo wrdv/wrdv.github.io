@@ -20,6 +20,6 @@ testme:
       - title: "Features"
         url: /testme/features/
       - title: "Changelog"
-        url: /testme/changelog/
+        url: /testme/release-notes/
       - title: "License"
         url: /testme/license/
