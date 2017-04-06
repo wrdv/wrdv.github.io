@@ -16,6 +16,6 @@ modified: 2017-03-08T20:00:00+02:00
 
 ### TestMe motto and current shortcomings
 
-_TestMe IJ Plugin_ aims at generating as much Unit Test boilerplate as possible. The project still lacks some maturity level. You can further read about those dilemmas in [this blog post]({{ "/blog/testme/first-release/" | absolute_url }})
+_TestMe IJ Plugin_ aims at generating as much Unit Test boilerplate as possible. The project still lacks some maturity level. You can further read about those dilemmas in [this blog post]({{ "/blog/testme/first-release" | absolute_url }})
 
 [Sumbit a new Future Request on the project forum]({{ "/forum#!/testme/" | absolute_url }})
