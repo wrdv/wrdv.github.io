@@ -8,7 +8,7 @@ modified: 2017-03-08T20:00:00+02:00
 - Auto generate _Java_ or _Groovy_ test class
 - Generate Mocks for tested class's non-primitive fields
 - Support _Mockito_ as a Mock framework
-- Support _JUnit4_ and _JUnit5_
+- Support _JUnit4_ , _JUnit5_ & _Spock_
 - Generate Test methods for each accessible non-private method, excluding setters/getters
 - Generate dummy input parameters for tested method
 - Generate test result assertion expression
