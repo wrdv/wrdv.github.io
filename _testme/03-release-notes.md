@@ -2,12 +2,13 @@
 title: "Changelog"
 permalink: /testme/release-notes/
 excerpt: "Changelog of TestMe IntelliJ IDEA Plugin released versions"
-modified: 2017-03-18T22:00:00+02:00
+modified: 2017-05-27T14:00:00+02:00
 ---
 ### TestMe Plugin Releases
 
 | Version                                                                                                 | Notes |
 | ------------------------------------------------------------------------------------------------------- | ----- |
+| <a href="https://plugins.jetbrains.com/plugin/download?updateId=35441" rel="nofollow">1.5.0</a> | {::nomarkdown}<ul> <li>TestNG framework support - added a new option on TestMe popup UI to generate TestNG test class</li> <li>Groovy test params generator improvements: do not initialize map constructor properties that are not used in tested class</li> <li>Groovy test params generator improvements: prefer map constructor over biggest constructor if the type has 50% more setters than constructor arguments</li></ul>{:/nomarkdown}|
 | <a href="https://plugins.jetbrains.com/plugin/download?updateId=34715" rel="nofollow">1.4.0</a> | {::nomarkdown}<ul> <li>Spock framework support - added a new option on TestMe popup UI to generate Spock test</li> <li>Better auto identification of matching test root directory in a multi module project without prompting the user</li> <li>Initialize tested subject class directly when no mocks generated</li> <li>Skip generation of mock supporting statements (imports, @Before..) when no mocks generated</li> <li>Skip generation of test subject initialization statement when only static methods being tested</li> <li>Improve constructor selection and initialization of non static nested classes</li></ul>{:/nomarkdown}|
 | <a href="https://plugins.jetbrains.com/plugin/download?updateId=33540" rel="nofollow">1.3.0</a> | {::nomarkdown}<ul> <li>On test class name collision - popup dialog for renaming generated class name</li> <li>Format generated test according to relevant <i>Code Style Settings</i></li> <li>Default TestMe shortcut key changed to <i>Alt+Shift+Q</i> due to collision with Scala plugin</li> <li>Test params generator: handle varargs types</li> <li>Groovy params generator: pass null for inaccessible type initialized by inline setters</li></ul>{:/nomarkdown}|
 | <a href="https://plugins.jetbrains.com/plugin/download?updateId=33171" rel="nofollow">1.2.0</a> | {::nomarkdown}<ul><li>Support testing Groovy classes</li> <li>Identify cyclic object initialization, pass null instead.</li> <li>Improve performance when traversing nested objects.</li> <li>Test parameters initialization - pass null instead of initializing un-accessible types.</li> <li>Groovy test generation: ignore excessive property setters for inline initialization.</li> <li>Bugfix: in Groovy generated tests - wrap non String keys in maps.</li> <li>Parameter initialization: Ignore constructors accepting interfaces when default constructor exists.</li></ul>{:/nomarkdown}|

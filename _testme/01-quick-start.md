@@ -17,6 +17,7 @@ Navigate from IDEA menu: `Code` -> `TestMe...` (`Alt`+`Shift`+`Q`) -> select Uni
 
 - _Unit4_ + _Mockito_
 - _Unit5_ + _Mockito_
+- _TestNG_ + _Mockito_
 - _Groovy_ +_Unit4_ + _Mockito_
 - _Spock_ + _Mockito_
 
@@ -29,10 +30,16 @@ Navigate from IDEA menu: `Code` -> `TestMe...` (`Alt`+`Shift`+`Q`) -> select Uni
 
 ### Installation
 
-As any IJ IDEA plugin: 
+#### Option #1 - Install latest version from within IntelliJ IDEA:
 
-1. From IDEA menu: `Preferences` (`Ctrl`+`Shift`+`S`) -> `Plugins` -> `Browse repositories...` -> Search: `TestMe` -> `Install Plugin`
-2. Restart IDEA.
+  1. On IDEA menu: `Preferences` (`Ctrl`+`Shift`+`S`) -> `Plugins` -> `Browse repositories...` -> Search: `TestMe` -> `Install Plugin`
+  2. Restart IDEA.
+
+#### Option #2 - Manual installation of any previous version:
+
+  1. Download a any released version from [TestMe Releases Page]({{ "/testme/release-notes/" | absolute_url }})
+  1. On IDEA menu: `Preferences` (`Ctrl`+`Shift`+`S`) -> `Plugins` -> `Install plugin from disk...` -> Select previously downloaded zip file -> `OK`
+  2. Restart IDEA.
 
 ### Version Compatibility
 
