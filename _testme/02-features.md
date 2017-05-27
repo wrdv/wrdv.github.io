@@ -8,7 +8,7 @@ modified: 2017-05-27T15:00:00+02:00
 - Auto generate _Java_ or _Groovy_ test class
 - Generate Mocks for tested class's non-primitive fields
 - Support _Mockito_ as a Mock framework
-- Support _JUnit4_ , _JUnit5_ & _Spock_
+- Support _JUnit4_, _JUnit5_, _TestNG_ & _Spock_ frameworks
 - Generate Test methods for each accessible non-private method, excluding setters/getters
 - Generate default input parameters for tested methods
 - Generate test result assertion expression
@@ -19,6 +19,11 @@ modified: 2017-05-27T15:00:00+02:00
 Default values are auto generated for the tested methods parameters. Currently, this behaviour is not configurable. _Groovy_ tests generators are more robust in a sense that map constructors can be used (when applicable) to initialize objects with setters inline.
 This is not supported yet for _Java_ test generators, since assignment to local variables for initialization of test parameters complicates the test generation template.
 Personally, I would always recommend preferring _Groovy_ over _Java_ when it comes to unit testing. If you haven't transitioned yet to _Groovy_ as your test code language of choice - now is a good time start :)
+
+**Tip:** Generated test method call line can get very long depending on the depth level of nested objects passed to the tested method. Set the max line limit in IntelliJ Code Style configuration:
+`Preferences` (`Ctrl`+`Shift`+`S`) -> `Editor` -> `Code Style` -> `Java` or `Groovy` -> set `Right margin (columns)` and check `Ensure right margin is not exceeded`.
+Please note these settings will effect not just the test code generation. Currently its not possible to control the max line length for generated test code only.
+{: .notice--info}
 
 ### TestMe motto and current shortcomings
 
