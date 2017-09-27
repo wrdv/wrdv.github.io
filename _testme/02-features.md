@@ -2,7 +2,7 @@
 title: "Features"
 permalink: /testme/features/
 excerpt: "Overview of TestMe IntelliJ IDEA Plugin main features"
-modified: 2017-05-27T15:00:00+02:00
+modified: 2017-09-27T15:00:00+02:00
 ---
 ### Feature list
 - Auto generate _Java_ or _Groovy_ test class
@@ -16,13 +16,22 @@ modified: 2017-05-27T15:00:00+02:00
 
 ### Test parameters generation
 
-Default values are auto generated for the tested methods parameters. Currently, this behaviour is not configurable. _Groovy_ tests generators are more robust in a sense that map constructors can be used (when applicable) to initialize objects with setters inline.
-This is not supported yet for _Java_ test generators, since assignment to local variables for initialization of test parameters complicates the test generation template.
+Default values are auto generated for the tested methods parameters. Currently, this behaviour is not configurable. _Groovy_ tests generators are more robust in a sense that map constructors can be used, when applicable, to initialize objects with setters inline.
+Such matching feature is not supported yet for _Java_ test generators, since assignment to local variables for initialization of test parameters complicates the test generation template.
 Personally, I would always recommend preferring _Groovy_ over _Java_ when it comes to unit testing. If you haven't transitioned yet to _Groovy_ as your test code language of choice - now is a good time start :)
 
 **Tip:** Generated test method call line can get very long depending on the depth level of nested objects passed to the tested method. Set the max line limit in IntelliJ Code Style configuration:
 `Preferences` (`Ctrl`+`Shift`+`S`) -> `Editor` -> `Code Style` -> `Java` or `Groovy` -> set `Right margin (columns)` and check `Ensure right margin is not exceeded`.
 Please note these settings will effect not just the test code generation. Currently its not possible to control the max line length for generated test code only.
+{: .notice--info}
+
+### Test class mocks generation
+
+Mocks are generated for non primitives/non wrapper types classes. Currently, only _Mockito_ is supported as the mock framework.
+There's some difficulty in identifying which class member dependency should be mocked. On some use cases the answer to this question may be controversial. There's still some work to be done here.   
+
+**Tip:** By default, Mockito mocks will not be generated for final types. To turn that option on, as specified in [these Mockito instructions](https://github.com/mockito/mockito/wiki/What%27s-new-in-Mockito-2#mock-the-unmockable-opt-in-mocking-of-final-classesmethods),
+create a file in project resources with the path uri - /mockito-extensions/org.mockito.plugins.MockMaker. The file should contain the line: mock-maker-inline.
 {: .notice--info}
 
 ### TestMe motto and current shortcomings
