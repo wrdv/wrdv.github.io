@@ -2,12 +2,13 @@
 title: "Changelog"
 permalink: /testme/release-notes/
 excerpt: "Changelog of TestMe IntelliJ IDEA Plugin released versions"
-modified: 2017-09-27T23:00:00+02:00
+modified: 2017-11-27T07:00:00+02:00
 ---
 ### TestMe Plugin Releases
 
 | Version                                                                                                 | Notes |
 | ------------------------------------------------------------------------------------------------------- | ----- |
+| [1.7]({{ site.url }}/downloads/TestMe-1.7.zip)                                                  | {::nomarkdown}<ul> <li>Generate mocked return values for method calls of mocked dependencies in tested class</li> <li>Test params generator: locate and initialize concrete types found in project source instead of passing null for interface/abstract parameter types</li> <li>Get configuration from system properties (a temporary solution to support runtime configuration control via the built in IDE Scripting Console - on the Tools menu). Note: Some of these configuration properties may not be supported in future releases. <a href="http://weirddev.com/blog/testme/testme-configuration-hacks">More info and usage instructions here</a></li> </ul>{:/nomarkdown}|
 | <a href="https://plugins.jetbrains.com/plugin/download?updateId=38830" rel="nofollow">1.6</a>   | {::nomarkdown}<ul> <li>Test params generator improvements: heuristically identify and ignore unused properties by the tested method, pass null for constructor arguments that initialize unused properties</li> <li>Mock final classes when Mockito option <i>mock-maker-inline</i> is set in project resource file <i>/mockito-extensions/org.mockito.plugins.MockMaker</i> (reported by koperko on Aug 11 '17)</li> <li>bugfix: Goto Test or Test Generation popup doesn't open for python files due to internal error on testability validation check (reported by aristotll on July 30 '17)</li> <li>bugfix: test params generator - Java Primitive wrappers should not be unwrapped to avoid method call ambiguity (reported by intars on June 6 '17)</li> <li>bugfix: auto location of the appropriate target test module src directory in a multi module project</li> </ul>{:/nomarkdown}|
 | <a href="https://plugins.jetbrains.com/plugin/download?updateId=35441" rel="nofollow">1.5.2</a> | {::nomarkdown}<ul> <li>bugfix: Goto Test or Test Generation popup doesn't open for python files due to internal error on testability validation check (reported by aristotll on July 30 '17)</li></ul>{:/nomarkdown}|
 | <a href="https://plugins.jetbrains.com/plugin/download?updateId=35802" rel="nofollow">1.5.1</a> | {::nomarkdown}<ul> <li>bugfix: test params generator - Java Primitive wrappers should not be unwrapped to avoid method call ambiguity (reported by intars on June 6 '17)</li></ul>{:/nomarkdown}|
