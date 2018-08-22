@@ -19,7 +19,9 @@ testme:
         url: /testme/
       - title: "Features"
         url: /testme/features/
-      - title: "Changelog"
+      - title: "Settings"
+        url: /testme/settings/
+      - title: "Release Notes"
         url: /testme/release-notes/
       - title: "License"
         url: /testme/license/

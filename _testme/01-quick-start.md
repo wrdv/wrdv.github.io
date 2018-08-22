@@ -37,10 +37,11 @@ Navigate from IDEA menu: `Code` -> `TestMe...` (`Alt`+`Shift`+`Q`) -> select Uni
 
 #### Option #2 - Manual installation of any previous version:
 
-  1. Download a any released version from [TestMe Releases Page]({{ "/testme/release-notes/" | absolute_url }})
+  1. Download a any released version from [TestMe Releases Notes]({{ "/testme/release-notes/" | absolute_url }})
   1. On IDEA menu: `Preferences` (`Ctrl`+`Shift`+`S`) -> `Plugins` -> `Install plugin from disk...` -> Select previously downloaded zip file -> `OK`
   2. Restart IDEA.
 
 ### Version Compatibility
 
-TestMe plugin is compatible with IntelliJ IDEA versions 14.x, 15.x, 2016.x, 2017.x. The plugin was not tested on other versions.
+TestMe plugin is compatible with IntelliJ IDEA versions 14.x, 15.x, 2016.x, 2017.x, 2018.x. The plugin was not tested on other versions.
+Please refer to the [Releases Notes page]({{ "/testme/release-notes/" | absolute_url }}) to find IDEA version compatibility matrix.

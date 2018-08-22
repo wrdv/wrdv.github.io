@@ -7,7 +7,7 @@ tags:
   - TestMe Plugin
   - Intellij IDEA
   - TestMe Plugin Configuration
-  - Auto generate Java or Groovy unit test code
+  - Auto generate unit test code in Java, Groovy or Scala
   - generate Java or Groovy test mocks
   - IntelliJ - IDE Scripting Console
 ---
