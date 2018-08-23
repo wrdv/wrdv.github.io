@@ -1,6 +1,6 @@
 ---
 title:  "TestMe -- Configuration hacks"
-modified: 2017-11-07T20:00:00+02:00
+modified: 2018-23-07T22:30:00+02:00
 categories:
   - TestMe
 tags:
@@ -49,30 +49,6 @@ To change *TestMe IJ Plugin* configuration properties at runtime:
  * Default:9
  */
 System.properties.setProperty("testMe.generator.maxRecursionDepth", "9")//set default value
-
-/**
- * Test generator styling feature. reformat generated test code according to relevant language styling settings in IDEA
- * Valid values:true,false
- * Default:true
- */
-System.properties.setProperty("testMe.style.reformatCode", "true")//set default value
-//System.properties.setProperty("testMe.style.reformatCode", "false")//turn feature off
-
-/**
- * Test generator styling feature. replace fully qualified class names with import statements where possible in generated test
- * Valid values:true,false
- * Default:true
- */
-System.properties.setProperty("testMe.style.replaceFqn", "true")//set default value
-//System.properties.setProperty("testMe.style.replaceFqn", "false")//set default value
-
-/**
- * Test generator styling feature. optimize imports in generated test
- * Valid values:true,false
- * Default:true
- */
-System.properties.setProperty("testMe.style.optimizeImports", "true")//set default value
-//System.properties.setProperty("testMe.style.optimizeImports", "false")//set default value
 
 /**
  * Test parameters generator optimization. when true - heuristically identify and ignore unused properties by the tested method, so null is passed for constructor arguments that initialize unused properties. In case a Groovy map constructor used - property will not be initialized
@@ -126,4 +102,7 @@ System.properties.setProperty("testMe.generator.minPercentOfInteractionWithPrope
 ``` 
 Happy coding :)
 
+**Update - Aug 23, 2018:** Support for the following configurable properties have been removed since they are now configurable as an integral part of the [new Settings UI]({{ "/testme/settings/" | absolute_url }}) in release 2.0.0:
+`testMe.style.replaceFqn`, `testMe.style.reformatCode`, `testMe.style.optimizeImports`.
+{: .notice--info}
 
