@@ -2,7 +2,7 @@
 title: "Quick-Start"
 permalink: /testme/
 excerpt: "Quick introduction on how to use and install TestMe IntelliJ IDEA Plugin"
-modified: 2017-02-20T21:00:00+02:00
+modified: 2018-08-23T21:10:00+02:00
 ---
 
 **TestMe IntelliJ Plugin** generates Unit Test boilerplate code, leaving the developer to add the Unit Test logic.
@@ -20,6 +20,10 @@ Navigate from IDEA menu: `Code` -> `TestMe...` (`Alt`+`Shift`+`Q`) -> select Uni
 - _TestNG_ + _Mockito_
 - _Groovy_ +_Unit4_ + _Mockito_
 - _Spock_ + _Mockito_
+- _Spock_ Parameterized tests+ _Mockito_
+- _Specs2(Scala)_ + _Mockito_
+
+\* _Groovy_ and _Scala_ templates will only be available if the matching Jetbrains Groovy/Scala plugins are installed in IDEA. Jetbrains Groovy plugin is bundled with IntelliJ OOB. Scala plugin requires installation 
 
 ![Generate new unit test](/assets/images/screencast/simple-use-case.gif)
 
