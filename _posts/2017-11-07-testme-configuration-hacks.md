@@ -12,10 +12,15 @@ tags:
   - IntelliJ - IDE Scripting Console
 ---
 
+**Update - Aug 23, 2018:** Support for the following configurable properties have been removed since they are now configurable as an integral part of the [new Settings UI]({{ "/testme/settings/" | absolute_url }}) in release 2.0.0:
+`testMe.style.replaceFqn`, `testMe.style.reformatCode`, `testMe.style.optimizeImports`.
+{: .notice--info}
+
+
 Release 1.7 added support for configurable properties to control some of [TestMe IJ IDEA Plugin]({{ "/testme/ " | absolute_url }}) behaviour. Well... sort of. The truth is that no configuration screens were introduced but now it's possible to hack the plugin via the *IDE Scripting Console*.
 
 
-## Why a proper configuration screen was not added? 
+### Why a proper configuration screen was not added? 
 
 Since the current UI is minimalistic and the test templates behaviour would be better controlled by a feature test template customization option the main functionality that is currently relevant for control by user configuration is the test generation engine behaviour.
 Letting the user control that behaviour has some problematic implications on the future development an evolution of this plugin. some features that are related to the random test parameters generation behaviour for instance are not fully matured.
@@ -24,7 +29,7 @@ The aim here is to improve the plugin to a level where the resulted generated te
 Ideally, the plugin should provide an almost fully automated experience and "know what to do" rather than relay the user the tweak the configuration to get the desired results. 
 If the current functionality is falling short, I would prefer users to complain about it in the [project forum]({{ "/forum#!/testme/" | absolute_url }}) rather than to shutdown features.
 
-## The compromised solution 
+### The compromised solution 
 
 The built-in scripting/macro tool in IDEA comes handy here to provide a way to hack the configuration. This non standard approach, based on setting system properties at runtime with a script, is far from being user friendly, but is has some important advantages:
 * The updated configuration is not persisted, so important features that should be improved in future versions are not ignored.    
@@ -33,7 +38,7 @@ The built-in scripting/macro tool in IDEA comes handy here to provide a way to h
 * Yes. admittedly. the development cost is also a consideration. :)
 
 
-## TL;DR - How to hack TestMe Configuration
+### TL;DR - How to hack TestMe Configuration
 To change *TestMe IJ Plugin* configuration properties at runtime:
 
 1. Paste this Groovy code listed below at the **_IDE Scripting Console_** (opened from IntelliJ **_Tools_** menu)
@@ -101,8 +106,3 @@ System.properties.setProperty("testMe.generator.minPercentOfExcessiveSettersToPr
 System.properties.setProperty("testMe.generator.minPercentOfInteractionWithPropertiesToTriggerConstructorOptimization", "66")//set default value
 ``` 
 Happy coding :)
-
-**Update - Aug 23, 2018:** Support for the following configurable properties have been removed since they are now configurable as an integral part of the [new Settings UI]({{ "/testme/settings/" | absolute_url }}) in release 2.0.0:
-`testMe.style.replaceFqn`, `testMe.style.reformatCode`, `testMe.style.optimizeImports`.
-{: .notice--info}
-
