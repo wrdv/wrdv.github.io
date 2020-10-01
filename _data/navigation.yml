@@ -21,6 +21,8 @@ testme:
         url: /testme/features/
       - title: "Settings"
         url: /testme/settings/
+      - title: "Custom Templates"
+        url: /testme/custom-templates/
       - title: "Release Notes"
         url: /testme/release-notes/
       - title: "License"
