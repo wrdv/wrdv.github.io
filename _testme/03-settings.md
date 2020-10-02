@@ -29,5 +29,5 @@ Default:checked
 
 ##### Optimize imports
 
-Optimize imports for generated test. This option just trigger IDEA optimize imports action (`Ctrl`+`Alt`+O) for the newly generated test class.
+Optimize imports for generated test. This option just trigger IDEA optimize imports action (`Ctrl`+`Alt`+`O`) for the newly generated test class.
 Default:checked

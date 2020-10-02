@@ -4,7 +4,7 @@ permalink: /testme/features/
 excerpt: "Overview of TestMe IntelliJ IDEA Plugin main features"
 modified: 2017-09-27T15:00:00+02:00
 ---
-### Feature list
+### Main Feature:
 - Auto generate unit test code in _Java_, _Groovy_ or _Scala_ 
 - Generate Mocks for tested class's non-primitive fields
 - Support _Mockito_ as a Mock framework
@@ -12,7 +12,7 @@ modified: 2017-09-27T15:00:00+02:00
 - Generate Test methods for each accessible non-private method, excluding setters/getters
 - Generate default input parameters for tested methods
 - Generate test result assertion expression
-- Supported target tested class language:  _Java_ , _Groovy_.
+- Supported target tested class language:  _Java_ , _Groovy_, _Scala_.
 
 ### Test parameters generation
 

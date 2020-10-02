@@ -40,14 +40,14 @@ Following variable can be used with Velocity's $ operator:
 | PACKAGE_NAME          | Test subject package name                                                                                                                                                             |
 | TESTED_CLASS_LANGUAGE | Test subject class name                                                                                                                                                               |
 | MAX_RECURSION_DEPTH   | Configured max recursion depth for object graph introspection                                                                                                                         |
-| MONTH_NAME_EN         | Current English Month name. format MMMM                                                                                                                                               |
-| DAY_NUMERIC           | Current Day of month for numeric calculations. i.e. if today is January the 2nd then DAY_NUMERIC is 2                                                                                 |
-| HOUR_NUMERIC          | Current Hour for numeric calculations. i.e. if the current time is 09:45 then HOUR_NUMERIC is 9                                                                                       |
-| MINUTE_NUMERIC        | Current Minute for numeric calculations. i.e. if the current time is 09:05 then MINUTE_NUMERIC is 5                                                                                   |
-| SECOND_NUMERIC        | Current Second for numeric calculations. i.e. if the current time is 09:15:05 then SECOND_NUMERIC is 5                                                                                |
 | STRING_UTILS          | Instance of [com.weirddev.testme.intellij.template.context.StringUtils](/testme/javadoc/com/weirddev/testme/intellij/template/context/StringUtils.html)                               |
 | TESTED_CLASS          | Instance of [com.weirddev.testme.intellij.template.context.Type](/testme/javadoc/com/weirddev/testme/intellij/template/context/Type.html) - representing Class of target test subject |
 | TEST_BUILDER          | Instance of [com.weirddev.testme.intellij.template.context.TestBuilder](/testme/javadoc/com/weirddev/testme/intellij/template/context/TestBuilder.html)                               |
 | MOCKITO_MOCK_BUILDER  | Instance of [com.weirddev.testme.intellij.template.context.MockitoMockBuilder](/testme/javadoc/com/weirddev/testme/intellij/template/context/MockitoMockBuilder.html)                 |
 | TEST_SUBJECT_UTILS    | Instance of [com.weirddev.testme.intellij.template.context.TestSubjectInspector](/testme/javadoc/com/weirddev/testme/intellij/template/context/TestSubjectInspector.html)             |
+| MONTH_NAME_EN         | Current English Month name. format MMMM                                                                                                                                               |
+| DAY_NUMERIC           | Current Day of month for numeric calculations. i.e. if today is January the 2nd then DAY_NUMERIC is 2                                                                                 |
+| HOUR_NUMERIC          | Current Hour for numeric calculations. i.e. if the current time is 09:45 then HOUR_NUMERIC is 9                                                                                       |
+| MINUTE_NUMERIC        | Current Minute for numeric calculations. i.e. if the current time is 09:05 then MINUTE_NUMERIC is 5                                                                                   |
+| SECOND_NUMERIC        | Current Second for numeric calculations. i.e. if the current time is 09:15:05 then SECOND_NUMERIC is 5                                                                                |
 
