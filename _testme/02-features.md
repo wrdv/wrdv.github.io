@@ -1,5 +1,5 @@
 ---
-title: "Features"
+title: "Code Generation"
 permalink: /testme/features/
 excerpt: "Overview of TestMe IntelliJ IDEA Plugin main features"
 modified: 2017-09-27T15:00:00+02:00
