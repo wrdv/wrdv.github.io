@@ -27,7 +27,7 @@ Letting the user control that behaviour has some problematic implications on the
 Users may want to turn off some of these features, since the user choice must be respected and persisted between IDE restarts ( otherwise users will really get annoyed...), this means that many users may blind to future improvements.
 The aim here is to improve the plugin to a level where the resulted generated test code is a good fit for the required test code structure in 90% of the use cases, so only a few, quick adaptations, mainly in the test input/assertion values - will be required to complete the unit test development. 
 Ideally, the plugin should provide an almost fully automated experience and "know what to do" rather than relay the user the tweak the configuration to get the desired results. 
-If the current functionality is falling short, I would prefer users to complain about it in the [project forum]({{ "/forum#!/testme/" | absolute_url }}) rather than to shutdown features.
+If the current functionality is falling short, please raise an issue on the [project forum]({{ "/forum#!/testme/" | absolute_url }}).
 
 ### The compromised solution 
 

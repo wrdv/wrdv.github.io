@@ -47,5 +47,5 @@ Navigate from IDEA menu: `Code` -> `TestMe...` (`Alt`+`Shift`+`Q`) -> select Uni
 
 ### Version Compatibility
 
-TestMe plugin is compatible with IntelliJ IDEA versions 14.x, 15.x, 2016.x, 2017.x, 2018.x. The plugin was not tested on other versions.
-Please refer to the [Releases Notes page]({{ "/testme/release-notes/" | absolute_url }}) to find IDEA version compatibility matrix.
+TestMe plugin latest versions are usually compatible with latest IDEA versions. A newly released IDEA version might be incompatible with latest TestMe plugin, in such case please report an issue on the [project forum page]({{ "/forum#!/testme/" | absolute_url }}) .For older IDEA versions - 14.x, 15.x, 2016.x, 2017.x, 2018.x. - there are matching TestMe plugin versions that can be suggested by IDEA plugin manager.
+Please refer to the [Releases Notes page]({{ "/testme/release-notes/" | absolute_url }}) to review IDEA version compatibility matrix.
