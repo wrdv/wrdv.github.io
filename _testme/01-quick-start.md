@@ -9,7 +9,7 @@ modified: 2018-08-23T21:10:00+02:00
 
 {% comment %}{% include toc %}{% endcomment %}
 
-### Generating Unit Test (or - Show Me The Money!)
+### Generating Unit Test
 
 Navigate from IDEA menu: `Code` -> `TestMe...` (`Alt`+`Shift`+`Q`) -> select Unit Test template from the popup menu.
 

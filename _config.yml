@@ -274,3 +274,4 @@ defaults:
         nav: "testme"
         top_image: /assets/images/tm-logo-large.png
         top_image_alt: "TestMe"
+        promo: true

@@ -229,3 +229,20 @@
     }
   }
 }
+.sidebar .promo {
+  float: left;
+  border: 1px solid #bdc1c4;
+  border-radius: 4px;
+}
+.sidebar .promo a
+{
+  text-align: center;
+  text-decoration: none;
+}
+.sidebar .promo .promo-text{
+   margin-top:0;
+   line-height: 18px;
+   font-family: "Graphik Webfont",-apple-system,"Helvetica Neue","Droid Sans",Arial,sans-serif;
+   font-weight: 400;
+   -webkit-font-smoothing: antialiased;
+ }
