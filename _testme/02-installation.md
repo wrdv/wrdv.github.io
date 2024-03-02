@@ -1,6 +1,6 @@
 ---
 title: "Installation"
-permalink: /testme/
+permalink: /testme/installation
 excerpt: "Installation options of TestMe IntelliJ IDEA Plugin"
 modified: 2024-03-02T14:10:00+02:00
 ---
@@ -27,7 +27,7 @@ Please refer to the [Releases Notes page]({{ "/testme/release-notes/" | absolute
 
 Some feature/bugfixes are first released as EAP versions 
 
-### Installation Options:
+### EAP Installation Options:
 
 #### #1 - From Jetbrains plugin manager
 - Settings -> Plugins -> Gear Icon on top -> Manage Plugin Repositories -> `+` sign -> set this url https://plugins.jetbrains.com/plugins/eap/9471
