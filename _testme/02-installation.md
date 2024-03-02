@@ -1,6 +1,6 @@
 ---
 title: "Installation"
-permalink: /testme/installation
+permalink: /testme/installation/
 excerpt: "Installation options of TestMe IntelliJ IDEA Plugin"
 modified: 2024-03-02T14:10:00+02:00
 ---

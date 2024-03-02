@@ -17,6 +17,8 @@ testme:
     children:
       - title: "Quick-Start"
         url: /testme/
+      - title: "Installation
+        url: /testme/installation/
       - title: "Code Generation"
         url: /testme/features/
       - title: "Settings"
