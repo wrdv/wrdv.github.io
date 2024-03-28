@@ -1,6 +1,8 @@
 com.weirddev.testme.intellij
 com.weirddev.testme.intellij.action
 com.weirddev.testme.intellij.action.helpers
+com.weirddev.testme.intellij.builder
+com.weirddev.testme.intellij.cache
 com.weirddev.testme.intellij.common.reflection
 com.weirddev.testme.intellij.common.utils
 com.weirddev.testme.intellij.configuration

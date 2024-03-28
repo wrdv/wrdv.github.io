@@ -7,8 +7,8 @@ modified: 2017-09-27T15:00:00+02:00
 ### Main Feature:
 - Auto generate unit test code in _Java_, _Groovy_ or _Scala_ 
 - Generate Mocks for tested class's non-primitive fields
-- Support _Mockito_ as a Mock framework
-- Support _JUnit4_, _JUnit5_, _TestNG_ & _Spock_ frameworks
+- Support _Mockito_ & _PowerMock_ mock frameworks
+- Support _JUnit4_, _JUnit5_, _TestNG_ & _Spock_ unit test frameworks
 - Generate Test methods for each accessible non-private method, excluding setters/getters
 - Generate default input parameters for tested methods
 - Generate test result assertion expression
@@ -27,8 +27,8 @@ Please note these settings will effect not just the test code generation. Curren
 
 ### Test class mocks generation
 
-Mocks are generated for non primitives/non wrapper types classes. Currently, only _Mockito_ is supported as the mock framework.
-There's some difficulty in identifying which class member dependency should be mocked. On some use cases the answer to this question may be controversial. There's still some work to be done here.   
+Mocks are generated for non primitives/non wrapper types classes.
+There's some technical difficulties in identifying which class member dependency should be mocked. Some use cases may be controversial. There's still some work to be done on this...   
 
 **Tip:** By default, Mockito mocks will not be generated for final types. To turn that option on, as specified in [these Mockito instructions](https://github.com/mockito/mockito/wiki/What%27s-new-in-Mockito-2#mock-the-unmockable-opt-in-mocking-of-final-classesmethods),
 create a file in project resources with the path uri - /mockito-extensions/org.mockito.plugins.MockMaker. The file should contain the line: mock-maker-inline.

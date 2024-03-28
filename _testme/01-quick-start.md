@@ -16,6 +16,7 @@ Navigate from IDEA menu: `Code` -> `TestMe...` (`Alt`+`Shift`+`Q`) -> select Uni
 #### Currently available Unit Test Templates
 
 - _Unit4_ + _Mockito_
+- _Unit4_ + _PowerMock_
 - _Unit5_ + _Mockito_
 - _TestNG_ + _Mockito_
 - _Groovy_ +_Unit4_ + _Mockito_
