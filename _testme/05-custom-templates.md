@@ -2,7 +2,7 @@
 title: "Custom Templates"
 permalink: /testme/custom-templates/
 excerpt: "TestMe IntelliJ IDEA Plugin Custom Test Templates"
-modified: 2022-02-06T22:00:00+02:00
+modified: 2024-03-27T22:00:00+02:00
 ---
 
 Custom test generation templates can be defined in IDEA Settings/Preferences

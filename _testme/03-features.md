@@ -2,7 +2,7 @@
 title: "Code Generation"
 permalink: /testme/features/
 excerpt: "Overview of TestMe IntelliJ IDEA Plugin main features"
-modified: 2017-09-27T15:00:00+02:00
+modified: 2024-03-27T22:00:00+02:00
 ---
 ### Main Feature:
 - Auto generate unit test code in _Java_, _Groovy_ or _Scala_ 

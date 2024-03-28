@@ -2,7 +2,7 @@
 title: "Quick-Start"
 permalink: /testme/
 excerpt: "Quick introduction on how to use and install TestMe IntelliJ IDEA Plugin"
-modified: 2024-03-02T14:10:00+02:00
+modified: 2024-03-27T22:00:00+02:00
 ---
 
 **TestMe IntelliJ Plugin** generates Unit Test boilerplate code, leaving the developer to add the Unit Test logic.
