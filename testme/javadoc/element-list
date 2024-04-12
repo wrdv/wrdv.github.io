@@ -15,6 +15,7 @@ com.weirddev.testme.intellij.scala.utils
 com.weirddev.testme.intellij.template
 com.weirddev.testme.intellij.template.context
 com.weirddev.testme.intellij.template.context.impl
+com.weirddev.testme.intellij.ui.customizedialog
 com.weirddev.testme.intellij.ui.model
 com.weirddev.testme.intellij.ui.popup
 com.weirddev.testme.intellij.ui.settings
