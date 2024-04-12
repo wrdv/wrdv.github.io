@@ -1,11 +1,7 @@
 ---
 title:  "Forum"
 modified: 2024-04-12T16:45:00+02:00
-categories:
-  - TestMe
-tags:
-  - Forum
-layout: single
+layout: splash
 permalink: /forum
 author_profile: false
 ---
