@@ -5,6 +5,9 @@ categories:
   - TestMe
 tags:
   - Forum
+layout: default
+permalink: /forum
+author_profile: false
 ---
 
 
