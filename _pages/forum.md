@@ -5,7 +5,7 @@ categories:
   - TestMe
 tags:
   - Forum
-layout: default
+layout: single
 permalink: /forum
 author_profile: false
 ---
