@@ -9,7 +9,7 @@ author_profile: false
 
 # End User License Agreement (EULA)
 
-**“Developer”** ** means [WeirdDev](https://weirddev.com).
+**“Developer”**  means [WeirdDev](https://weirddev.com).
 
 **“JetBrains”**  means JetBrains s.r.o.
 
