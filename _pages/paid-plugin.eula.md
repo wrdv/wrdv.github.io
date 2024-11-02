@@ -2,7 +2,7 @@
 layout: archive
 title: "WeirdDev JB Paid Plugin - End User License Agreement (EULA)"
 modified: 2024-11-02T16:45:00+02:00
-permalink: /paid-plugin-eula/
+permalink: /jb-paid-plugin-eula/
 excerpt: "WeirdDev - JetBrains Paid Plugin EULA"
 author_profile: false
 ---
