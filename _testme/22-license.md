@@ -1,5 +1,6 @@
 ---
 title: "License"
+title_category: "TestMe"
 permalink: /testme/license/
 excerpt: "TestMe IntelliJ IDEA Plugin license"
 modified: 2017-02-20T22:00:00+02:00

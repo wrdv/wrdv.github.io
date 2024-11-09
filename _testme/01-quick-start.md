@@ -1,5 +1,6 @@
 ---
 title: "Quick-Start"
+title_category: "TestMe"
 permalink: /testme/
 excerpt: "Quick introduction on how to use and install TestMe IntelliJ IDEA Plugin"
 modified: 2024-03-27T22:00:00+02:00
@@ -35,5 +36,5 @@ Navigate from IDEA menu: `Code` -> `TestMe...` (`Alt`+`Shift`+`Q`) -> select Uni
 
 ### Installation
 
-  1. On IDEA menu: `Preferences` (`Ctrl`+`Shift`+`S`) -> `Plugins` -> `Browse repositories...` -> Search: `TestMe` -> `Install Plugin`
+  1. On IDEA menu: `Preferences` (`Ctrl`+`Alt`+`S`) -> `Plugins` -> `Marketplace` -> Search: `TestMe` -> `Install`
   2. Restart IDEA.

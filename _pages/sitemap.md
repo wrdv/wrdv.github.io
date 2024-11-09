@@ -7,14 +7,16 @@ author_profile: false
 
 A list of all the posts and pages found on the site. For you robots, there is an [XML version]({{ "sitemap.xml" | absolute_url }}) available for digesting as well.
 
-<h2>Pages</h2>
+<h1>Pages</h1>
 {% for post in site.pages %}
     {% if post.sitemap != false %}
-      {% include archive-single.html %}
+        {% unless post.url contains 'javadoc' %}
+            {% include archive-single.html %}
+        {% endunless %}
     {% endif %}
 {% endfor %}
 
-<h2>Posts</h2>
+<h1>Posts</h1>
 {% for post in site.posts %}
   {% if post.sitemap != false %}
     {% include archive-single.html %}
@@ -27,7 +29,7 @@ A list of all the posts and pages found on the site. For you robots, there is an
 {% unless collection.output == false or collection.label == "posts" %}
   {% capture label %}{{ collection.label }}{% endcapture %}
   {% if label != written_label %}
-  <h2>{{ label }}</h2>
+  <h1>{{ label }}</h1>
   {% capture written_label %}{{ label }}{% endcapture %}
   {% endif %}
 {% endunless %}

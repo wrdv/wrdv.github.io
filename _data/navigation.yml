@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: ".log"
+    url: /.log/
   - title: "TestMe"
     url: /testme/
   - title: "Blog"
@@ -13,8 +15,7 @@ main:
 
 # TestMe links
 testme:
-  -
-    children:
+  - children:
       - title: "Quick-Start"
         url: /testme/
       - title: "Installation"
@@ -29,3 +30,17 @@ testme:
         url: /testme/release-notes/
       - title: "License"
         url: /testme/license/
+.log:
+  - children:
+      - title: "Quick-Start"
+        url: /.log/
+      - title: "Install"
+        url: /.log/installation/
+      - title: "View & Navigate"
+        url: /.log/view-and-navigate/
+      - title: "Settings"
+        url: /.log/settings/
+#      - title: "Release Notes"
+#        url: /.log/release-notes/
+      - title: "License"
+        url: /.log/license/

@@ -1,5 +1,6 @@
 ---
 title: "Release Notes"
+title_category: "TestMe"
 permalink: /testme/release-notes/
 excerpt: "Changelog of TestMe IntelliJ IDEA Plugin released versions"
 modified: 2024-07-10T21:30:00+02:00

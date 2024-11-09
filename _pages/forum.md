@@ -6,7 +6,9 @@ permalink: /forum
 author_profile: false
 ---
 
+## .log issues
 
+Please raise any issues or feature requests in [Jetbrains .log plugin reviews page](https://master.demo.marketplace.intellij.net/plugin/23958--log/reviews).
 
 ## TestMe Forum
 

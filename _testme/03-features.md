@@ -1,5 +1,6 @@
 ---
 title: "Code Generation"
+title_category: "TestMe"
 permalink: /testme/features/
 excerpt: "Overview of TestMe IntelliJ IDEA Plugin main features"
 modified: 2024-03-27T22:00:00+02:00
@@ -38,4 +39,4 @@ create a file in project resources with the path uri - /mockito-extensions/org.m
 
 _TestMe IJ Plugin_ aims at generating as much Unit Test boilerplate as possible. The project still lacks some maturity level. You can further read about those dilemmas in [this blog post]({{ "/blog/testme/first-release" | absolute_url }})
 
-[Sumbit a new Future Request on the project forum]({{ "/forum#!/testme/" | absolute_url }})
+[Submit a new Future Request on the project forum]({{ "/forum#!/testme/" | absolute_url }})

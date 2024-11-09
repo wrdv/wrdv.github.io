@@ -1,5 +1,6 @@
 ---
 title: "Installation"
+title_category: "TestMe"
 permalink: /testme/installation/
 excerpt: "Installation options of TestMe IntelliJ IDEA Plugin"
 modified: 2024-03-02T14:10:00+02:00
@@ -14,9 +15,9 @@ modified: 2024-03-02T14:10:00+02:00
 
 ### #2 Manual installation (of any previous version):
 
-  1. Download a any released version from [TestMe Releases Notes]({{ "/testme/release-notes/" | absolute_url }})
-  1. On IDEA menu: `Preferences` (`Ctrl`+`Shift`+`S`) -> `Plugins` -> `Install plugin from disk...` -> Select previously downloaded zip file -> `OK`
-  2. Restart IDEA.
+  1. Download any released version from [TestMe Releases Notes]({{ "/testme/release-notes/" | absolute_url }})
+  2. On IDEA menu: `Preferences` (`Ctrl`+`Shift`+`S`) -> `Plugins` -> `Install plugin from disk...` -> Select previously downloaded zip file -> `OK`
+  3. Restart IDEA.
 
 ## Version Compatibility
 

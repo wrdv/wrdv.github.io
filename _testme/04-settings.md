@@ -1,5 +1,6 @@
 ---
 title: "Settings"
+title_category: "TestMe"
 permalink: /testme/settings/
 excerpt: "TestMe IntelliJ IDEA Plugin Settings and Configuration"
 modified: 2018-08-22T22:00:00+02:00

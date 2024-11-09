@@ -1,5 +1,6 @@
 ---
 title: "Custom Templates"
+title_category: "TestMe"
 permalink: /testme/custom-templates/
 excerpt: "TestMe IntelliJ IDEA Plugin Custom Test Templates"
 modified: 2024-03-27T22:00:00+02:00

@@ -1,11 +1,14 @@
 <!-- begin SEO -->
+{% if page.title_category %}
+  {% assign title_category = page.title_category | append: " " %}
+{% endif %}
 {% if site.url %}
   {% assign seo_url = site.url | append: site.baseurl %}
 {% endif %}
 {% assign seo_url = seo_url | default: site.github.url %}
 
 {% if page.title %}
-  {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
+  {% assign seo_title = title_category | append:page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
 {% endif %}
 
 {% if seo_title %}

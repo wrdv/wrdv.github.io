@@ -10,7 +10,7 @@ locale                   : "en"
 title                    : "WeirdDev"
 title_separator          : "-"
 name                     : "WeirdDev"
-description              : "Home of some weird development stuff. Most notably, the TestMe IntelliJ Plugin, which auto generates unit test code in Java, Groovy or Scala"
+description              : "Home of some weird development stuff. .log JetBrains IDE plugin - views and navigates log files. TestMe IntelliJ Plugin - auto generates unit test code in Java, Groovy or Scala."
 url                      : "https://weirddev.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "wrdv/wrdv.github.io"
@@ -181,7 +181,7 @@ timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -237,6 +237,9 @@ collections:
   testme:
     output: true
     permalink: /:collection/:path/
+  .log:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -264,7 +267,7 @@ defaults:
       path: ""
       type: testme
     values:
-      classes: ['wd','tm-guide']
+      classes: ['wd','docs-guide']
       layout: single
       read_time: false
       author_profile: false
@@ -275,3 +278,19 @@ defaults:
         top_image: /assets/images/tm-logo-large.png
         top_image_alt: "TestMe"
         promo: true
+  # _.log
+  - scope:
+      path: ""
+      type: .log
+    values:
+      classes: ['wd','docs-guide']
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: ".log"
+        top_image: /assets/images/log-logo-large.svg
+        top_image_alt: ".log"
+        promo: false
