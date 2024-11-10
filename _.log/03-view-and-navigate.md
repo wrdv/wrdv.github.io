@@ -8,12 +8,16 @@ modified: 2024-11-10T22:00:00+02:00
 
 ## Syntax Highlighting
 
-**.log** automatically detects and highlights common log formats, including timestamps, log levels, categories, stack traces, log message constructs (numbers, measures, strings, value literals), and ANSI rendering instructions (Note: When scrolling rapidly, ANSI-codes highlighting may lag due to asynchronous rendering designed to maintain UI responsiveness).
+**.log** automatically detects and highlights common log formats, including timestamps, log levels, categories, stack traces, log message constructs (numbers, measures, strings, value literals), and ANSI rendering instructions (Note: When scrolling rapidly, ANSI-codes highlighting may lag due to asynchronous rendering, designed to maintain UI responsiveness).
 
 **Note:** In some cases, some log elements may not be highlighted as expected due to difficulties in reverse engineering human-readable log output to machine instructions. Typically, the impact is negligible. Regardless, please report anomalies. In some cases, rendering syntax can still be improved.
 {: .notice--warning}
 
 For any unrecognized log formats or highlighting inconsistencies, please [submit an issue with a log sample](#submitting-issues--feature-requests).
+
+## Log content time range
+  
+log file name display, on project view, or file tab, will include the time range of its log entries. date format will abbreviate and omit  year, month,day - if those match current date
 
 ## Navigation - Hyperlinks
 

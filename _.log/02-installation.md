@@ -23,7 +23,7 @@ There's a 30 Days free trial period. **.log plugin** license is available for pu
 
 **.log** plugin latest versions are usually compatible with latest IDEA versions.
 Relevant version compatible with your IDE version would be suggested by IDEA plugin manager.
-Please refer to [.log versions page on Jetbrains Marketplace] for compatibility matrix with JetBrains IDE versions.
+Please refer to [.log versions page on Jetbrains Marketplace](https://plugins.jetbrains.com/plugin/23958--log/versions) for compatibility matrix with JetBrains IDE versions.
 
 ## EAP versions
 
@@ -32,8 +32,8 @@ Some feature/bugfixes are first released as EAP versions
 ### EAP versions installation options:
 
 #### #1 From Jetbrains plugin manager
-- **Settings** → **Plugins** → Gear Icon on top → **Manage Plugin Repositories** → + sign → set this url https://plugins.jetbrains.com/plugins/eap/23958
+- **Settings** → **Plugins** → Gear Icon on top → **Manage Plugin Repositories** → + sign → set this url: `https://plugins.jetbrains.com/plugins/eap/23958`
 
 #### #2 Manual Installation
-- Download relevant version from https://plugins.jetbrains.com/plugin/23958--log/versions/eap 
+- Download relevant version from [EAP distribution channel](https://plugins.jetbrains.com/plugin/23958--log/versions/eap) 
 - Open **Settings** → **Plugins** → Gear Icon on top → **Install Plugin from Disk**
