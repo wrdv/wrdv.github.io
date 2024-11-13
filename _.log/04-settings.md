@@ -40,7 +40,7 @@ To ensure responsive performance, JetBrains sets a file size limitation. Since v
 - Set/Add the property `idea.max.content.load.filesize` to a higher value.
 - Restart the IDE for the changes to take effect. 
 - Example idea.properties:
-```
+```properties
 #---------------------------------------------------------------------  
 # Maximum file size (in KiB) the IDE is able to open.  
 #---------------------------------------------------------------------  

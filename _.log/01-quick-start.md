@@ -6,7 +6,7 @@ excerpt: "Quick introduction on how to use and install .log JetBrains IDE Plugin
 modified: 2024-11-10T22:00:00+02:00
 ---
 
-[.log IntelliJ Plugin](https://master.demo.marketplace.intellij.net/plugin/23958--log) supports code language features when viewing log files, with syntax highlighting and navigation. 
+[.log IntelliJ Plugin](https://plugins.jetbrains.com/plugin/25828--log) supports code language features when viewing log files, with syntax highlighting and navigation. 
 
 {% comment %}{% include toc %}{% endcomment %}
 
@@ -30,4 +30,4 @@ If the viewed file is not recognized as a .log file, configure file type associa
 
 ## Install
 - On IDEA menu: **Settings** (`⌘+, | Ctrl+Alt+S`) → **Plugins** → **Marketplace** → Search: `.log` → **Install**
-- There's a 30 Days free trial period. **.log plugin** license is available for purchase on [JetBrains .log purchase page](https://master.demo.marketplace.intellij.net/plugin/23958--log/pricing)
+- There's a 30 Days free trial period. **.log plugin** license is available for purchase on [JetBrains .log purchase page](https://plugins.jetbrains.com/plugin/25828--log/pricing)

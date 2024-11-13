@@ -15,7 +15,7 @@ modified: 2024-11-10T22:00:00+02:00
 
 For any unrecognized log formats or highlighting inconsistencies, please [submit an issue with a log sample](#submitting-issues--feature-requests).
 
-## Log content time range
+## Log events time range
   
 log file name display, on project view, or file tab, will include the time range of its log entries. date format will abbreviate and omit  year, month,day - if those match current date
 
@@ -61,7 +61,7 @@ Reported feature requests will be prioritized over planned roadmap features.
 
 ## Submitting Issues & Feature Requests
 
-Please submit feature requests & issues on [JetBrains .log plugin reviews page](https://plugins.jetbrains.com/plugin/23958--log/reviews)
+Please submit feature requests & issues on [JetBrains .log plugin reviews page](https://plugins.jetbrains.com/plugin/25828--log/reviews)
 
 If the issue concerns incorrect highlighting of log formats, please include:
 - A snippet of the log file that reproduces the issue.
