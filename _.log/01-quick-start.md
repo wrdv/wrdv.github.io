@@ -6,7 +6,7 @@ excerpt: "Quick introduction on how to use and install .log JetBrains IDE Plugin
 modified: 2024-11-10T22:00:00+02:00
 ---
 
-[.log IntelliJ Plugin](https://plugins.jetbrains.com/plugin/25828--log) supports code language features when viewing log files, with syntax highlighting and navigation. 
+[.log IntelliJ Plugin](https://plugins.jetbrains.com/plugin/25828--log) adds syntax highlighting and navigation features for log files viewed in JetBrains IDEs. Similar to how source code files are treated.
 
 {% comment %}{% include toc %}{% endcomment %}
 
