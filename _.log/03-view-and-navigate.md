@@ -3,7 +3,7 @@ title: "View & Navigate"
 title_category: ".log"
 permalink: /.log/view-and-navigate/
 excerpt: ".log JetBrains IDE Plugin main features"
-modified: 2024-11-10T22:00:00+02:00
+modified: 2024-11-28T22:00:00+02:00
 ---
 
 ## Syntax Highlighting
@@ -14,6 +14,8 @@ modified: 2024-11-10T22:00:00+02:00
 {: .notice--warning}
 
 For any unrecognized log formats or highlighting inconsistencies, please [submit an issue with a log sample](#submitting-issues--feature-requests).
+
+![Log syntax highlighting](/assets/images/log/ss-log-highlighting-play2.png)
 
 ## Log events time range
   

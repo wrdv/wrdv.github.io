@@ -3,7 +3,7 @@ title: "Settings"
 title_category: ".log"
 permalink: /.log/settings/
 excerpt: ".log JetBrains IDE Plugin Settings"
-modified: 2024-11-10T22:00:00+02:00
+modified: 2024-11-28T22:00:00+02:00
 ---
 
 ## Customizing Color Scheme
@@ -23,12 +23,16 @@ To set custom colors/styles for log file elements (i.e. timestamps, log levels, 
 - For each element foreground, background and font style (bold, italic, underline) can be customized. For ANSI codes only foreground and background colors are relevant.
 - Click **Apply** and **OK** to save your changes. Changes will apply immediately.
 
+![Log Color Scheme Settings](/assets/images/log/ss-log-settings-color-scheme.png)
+
 ## File Type Association
 
 By default, **.log plugin** configured to support log file name patterns: `*.log;*.err;*.out;*.log.txt`.
 To associate additional log file name patterns, to be viewed by **.log plugin**, update File Type Settings:
 1. **Find Action** dialog (`⌘+⇧+A | Ctrl+⇧+A`) → Search: **File Types** (or alternatively, **Settings** (`⌘+, | Ctrl+Alt+S`) → **File Types**)
 2. Under **Recognized File Types** → **Logs** → add file name patterns
+
+![Log File Type Settings](/assets/images/log/ss-log-settings-file-type.png)
 
 ## Supported File Size
 
