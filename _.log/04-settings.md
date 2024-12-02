@@ -54,5 +54,8 @@ To ensure responsive performance, JetBrains sets a file size limitation. Since v
 idea.max.content.load.filesize=100000
 ```
 
+**Note**: Currently, due to performance concerns, max supported file size is limited to **100MB**. larger files will be opened without syntax highlighting and navigation features provided by.log plugin. we're working to improve performance and remove or extend this limitation.
+{: .notice--info}
+
 **Note**: If performance issues encountered, [please report](/.log/view-and-navigate/#submitting-issues--feature-requests) the details including file size, typical log line length, typical log snippet and preferably also host CPU/memory specs
 {: .notice--warning}
