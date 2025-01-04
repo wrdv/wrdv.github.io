@@ -3,7 +3,7 @@ title: "Settings"
 title_category: ".log"
 permalink: /.log/settings/
 excerpt: ".log JetBrains IDE Plugin Settings"
-modified: 2024-11-28T22:00:00+02:00
+modified: 2025-01-04T19:00:00+02:00
 ---
 
 ## Customizing Color Scheme
@@ -34,27 +34,24 @@ To associate additional log file name patterns, to be viewed by **.log plugin**,
 
 ![Log File Type Settings](/assets/images/log/ss-log-settings-file-type.png)
 
-## Supported File Size
+## File Size Thresholds
 
-To ensure responsive performance, JetBrains sets a file size limitation. Since viewing log files typically consumes less resources then code source files, this limitation can be extended without significant performance impact. 
+To ensure responsive performance, JetBrains sets a file size threshold for in-memory content loading. 
 
-1. **File Size Limitation**: If a log file exceeds the default 20 MB limitation, it will not be supported and a notification will appear at the top of the editor.
-2. **Increase File Size Limit**:
+1. **File Size Thresholds**: If a log file exceeds the default 20 MB limitation, it will be opened as a Large File, as such file will be paginated. Text search will be slower while disk IO is performed.
+2. **Increase File Content Loading Threshold**:
 - Go to **Help** > **Edit Custom Properties…** to open the `idea.properties` file.
 - Set/Add the property `idea.max.content.load.filesize` to a higher value.
 - Restart the IDE for the changes to take effect. 
 - Example idea.properties:
-```properties
-#---------------------------------------------------------------------  
-# Maximum file size (in KiB) the IDE is able to open.  
-#---------------------------------------------------------------------  
+```properties 
 # defaults to 20MB (for IDEA 2024.2)
 #idea.max.content.load.filesize=20000
-# For example extend to 100MB
-idea.max.content.load.filesize=100000
+# For example extend to 50MB
+idea.max.content.load.filesize=50000
 ```
 
-**Note**: Currently, due to performance concerns, max supported file size is limited to **100MB**. larger files will be opened without syntax highlighting and navigation features provided by.log plugin. we're working to improve performance and remove or extend this limitation.
+**Note**: Currently, Log files opened as Large Files as noted above, are not supported with Problem Inspections.
 {: .notice--info}
 
 **Note**: If performance issues encountered, [please report](/.log/view-and-navigate/#submitting-issues--feature-requests) the details including file size, typical log line length, typical log snippet and preferably also host CPU/memory specs
