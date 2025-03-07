@@ -63,7 +63,7 @@ Reported feature requests will be prioritized over planned roadmap features.
 
 ## Submitting Issues & Feature Requests
 
-Please submit feature requests & issues on [JetBrains .log plugin reviews page](https://plugins.jetbrains.com/plugin/25828--log/reviews)
+Please submit feature requests & issues on [.log Github issue tracker](https://github.com/wrdv/.log-issues/issues) or [JetBrains .log plugin reviews page](https://plugins.jetbrains.com/plugin/25828--log/reviews)
 
 If the issue concerns incorrect highlighting of log formats, please include:
 - A snippet of the log file that reproduces the issue.
