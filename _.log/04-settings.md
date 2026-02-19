@@ -3,7 +3,7 @@ title: "Settings"
 title_category: ".log"
 permalink: /.log/settings/
 excerpt: ".log JetBrains IDE Plugin Settings"
-modified: 2025-01-04T19:00:00+02:00
+modified: 2025-02-19T19:00:00+02:00
 ---
 
 ## Customizing Color Scheme
@@ -36,23 +36,16 @@ To associate additional log file name patterns, to be viewed by **.log plugin**,
 
 ## File Size Thresholds
 
-To ensure responsive performance, JetBrains sets a file size threshold for in-memory content loading. 
+To ensure responsive performance, JetBrains IDE has a file size threshold for in-memory content loading.
 
-1. **File Size Thresholds**: If a log file exceeds the default 20 MB limitation, it will be opened as a Large File, as such file will be paginated. Text search will be slower while disk IO is performed.
-2. **Increase File Content Loading Threshold**:
-- Go to **Help** > **Edit Custom Properties…** to open the `idea.properties` file.
-- Set/Add the property `idea.max.content.load.filesize` to a higher value.
-- Restart the IDE for the changes to take effect. 
-- Example idea.properties:
-```properties 
-# defaults to 20MB (for IDEA 2024.2)
-#idea.max.content.load.filesize=20000
-# For example extend to 50MB
-idea.max.content.load.filesize=50000
-```
+When a log file exceeds this threshold (default 20 MB), it is opened as a **Large File** with pagination and large-file view optimization. The file is **read-only** in this mode. Text search may be slower while disk I/O is performed.
 
-**Note**: Currently, Log files opened as Large Files as noted above, are not supported with Problem Inspections.
+**Note**: Problem inspections are not supported for log files opened as Large Files. See [Navigation - Problem Inspections](/.log/view-and-navigate/#navigation---problem-inspections) for details.
 {: .notice--info}
 
-**Note**: If performance issues encountered, [please report](/.log/view-and-navigate/#submitting-issues--feature-requests) the details including file size, typical log line length, typical log snippet and preferably also host CPU/memory specs
+**Note**: If performance issues are encountered, [please report](/.log/view-and-navigate/#submitting-issues--feature-requests) the details including file size, typical log line length, typical log snippet and preferably also host CPU/memory specs.
 {: .notice--warning}
+
+## ANSI Escape Codes
+
+When a log file contains ANSI escape codes, **.log plugin** applies text styling according to those codes and hides the raw escape sequences for a cleaner view. Files opened with ANSI styling are **read-only**.

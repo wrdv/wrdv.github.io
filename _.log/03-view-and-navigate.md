@@ -3,12 +3,12 @@ title: "View & Navigate"
 title_category: ".log"
 permalink: /.log/view-and-navigate/
 excerpt: ".log JetBrains IDE Plugin main features"
-modified: 2024-11-28T22:00:00+02:00
+modified: 2025-02-19T19:00:00+02:00
 ---
 
 ## Syntax Highlighting
 
-**.log** automatically detects and highlights common log formats, including timestamps, log levels, categories, stack traces, log message constructs (numbers, measures, strings, value literals), and ANSI rendering instructions (Note: When scrolling rapidly, ANSI-codes highlighting may lag due to asynchronous rendering, designed to maintain UI responsiveness).
+**.log** automatically detects and highlights common log formats, including timestamps, log levels, categories, stack traces, log message constructs (numbers, measures, strings, value literals) and ANSI rendering instructions.
 
 **Note:** In some cases, some log elements may not be highlighted as expected due to difficulties in reverse engineering human-readable log output to machine instructions. Typically, the impact is negligible. Regardless, please report anomalies. In some cases, rendering syntax can still be improved.
 {: .notice--warning}
@@ -30,7 +30,7 @@ Some log elements are converted to hyperlinks:
 
 Open Hyperlinks - with Keyboard Shortcut: `Cmd + B | Ctrl + B` or a Click
 
-**Note:** Code navigation may not always work as expected. on some cases it's not feasible to locate project resources without additional hints. Navigation to code is supported for JVM-based languages only or now (support planned for additional languages/frameworks). regardless, please report any issue, so we can improve the navigation experience.
+**Note:** Code navigation may not always work as expected. on some cases it's not feasible to locate project resources without additional hints. Navigation to code is supported for JVM-based languages only or now (support planned for additional languages/frameworks). Regardless, please report any issue, so we can improve the navigation experience.
 {: .notice--warning}
 
 ## Navigation - Problem Inspections
@@ -39,6 +39,9 @@ Opened log files are inspected for Errors and Warnings - each of those are
 - highlighted in the editor
 - reflected as a heatmap on the right side of the editor
 - listed in the Problems Tool Window.
+
+**Note:** Problem inspections are not available for Large log files (above Jetbrains IDE in-memory text file size threshold) that are viewed with pagination support. See [Settings - File Size Thresholds](/.log/settings/#file-size-thresholds).
+{: .notice--info}
 
 1. Navigate to Next/Previous Problem - with keyboard shortcut `F2` / `⌘+F2 | ⇧+F2`
 2. View All Problems in the Problems Tool Window - Keyboard Shortcut: `⌘+6 | Alt+6`
@@ -53,11 +56,11 @@ By default, only **Errors** are cycled through with problem navigation. To inclu
 
 ## Planned Features
 
-Following features are planned for 2024/2025:
+Following features are planned for 2026:
 
 1. Code Navigation - Support additional languages/frameworks
-2. Support console logs.
-3. Support remote log files
+2. Console logs.
+3. Remote log files
 
 Reported feature requests will be prioritized over planned roadmap features.
 
