@@ -80,11 +80,3 @@ Transformations are applied when log file is opened. Disabling a toggle restores
 
 ![Display Transforms: ANSI and Timestamps toggles](/assets/images/log/ss-log-display-conversion-ansi-and-timestamps.gif)
 
-## Planned Features
-
-Following features are planned for 2026:
-
-1. Code Navigation - Support additional languages/frameworks
-2. Remote log files
-
-Reported feature requests will be prioritized over planned roadmap features.
