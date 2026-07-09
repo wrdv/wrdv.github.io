@@ -69,11 +69,7 @@ Destructured console lines still keep the original raw JSON available from the c
 - The context menu includes **Show Raw JSON** and **Copy Raw JSON** actions for destructured lines.
 - **Show Raw JSON** opens the original JSON in a selectable popup, so it can be inspected or copied without losing the human-friendly console view.
 
-![JSON logs destructured in console output](/assets/images/log/ss-log-console-json-destructure.png)
-
-![Raw JSON actions in console context menu](/assets/images/log/ss-log-console-json-raw-menu.png)
-
-![Raw JSON popup opened from console output](/assets/images/log/ss-log-console-json-raw-popup.png)
+![JSON logs destructured in console output](/assets/images/log/sc-log-console_json_destructure.gif)
 
 ### Performance Limits
 
